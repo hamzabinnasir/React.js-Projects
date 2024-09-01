@@ -1,0 +1,79 @@
+/* Fearured Section */
+.featuredSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+/* *** reminder *** */
+.featuredSection .square , .circle , .rect{
+    position: absolute;
+}
+
+/* left and Right */
+.featuredLeft , .featuredRight{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .featuredRight{
+   
+} */
+
+.featuredLeft img{
+    width: 70%;
+}
+
+.featuredRight h1{
+    font-size: 4.4vw;
+    font-weight: 100;
+    font-family: fontRegular;
+}
+
+.bold{
+    font-family: fontBold;
+}
+
+.featuredRight p{
+    font-family: fontRegular;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.featuredDesc , .dull{
+    color: #777;
+}
+
+/* Learn More Button */
+#learnMoreBtn{
+    background-color: #030070;
+    color: #fff;
+    padding: 18px 28px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: fontRegular;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+.polygon2{
+   height: 100%;
+   width: 100%;
+   background-color: pink;
+   position: absolute;
+   z-index: -1;
+   clip-path: polygon(0 0, 0 100%, 25% 100%, 45% 0);
+}
+

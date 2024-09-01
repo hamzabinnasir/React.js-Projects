@@ -1,0 +1,153 @@
+.app.dark{
+    background-color: #000;
+}
+
+/* Home Page */
+.app.dark .homeWrapper {
+    background-color: #000;
+}
+
+.app.dark.singleWrapper{
+    background-color: #000;
+}
+
+.app.dark .basicTable {
+    background-color: #111 !important;
+}
+
+.app.dark .tableCell {
+    color: #888 !important;
+}
+
+.app.dark .cartGrid {
+    stroke: #444;
+}
+
+.app.dark .sideBar {
+    background-color: #000;
+}
+
+.app.dark #navbar {
+    background-color: #000;
+    border-bottom: 0.5px solid #444;
+}
+
+.app.dark .logo {
+    border-bottom: 0.5px solid #444;
+}
+
+.app.dark .sideBar {
+    border-right: 0.5px solid #444;
+}
+
+.app.dark .icon {
+    color: #fff;
+}
+
+.app.dark .logo {
+    color: #fff;
+}
+
+
+/* Users Page */
+/* *** reminder *** */
+/* Individual header cells */
+.app.dark .dataTable .MuiDataGrid-columnHeader {
+    background-color: #000;
+    /* Darker header cell background */
+    color: #777;
+    /* White text */
+    border-bottom: 1px solid #444444;
+    /* Slight border for separation */
+}
+
+.app.dark .dataTable{
+    color: #777 !important;
+}
+
+/* Default checkbox color */
+.app.dark .dataTable .MuiCheckbox-root svg {
+    color: #777;
+    /* Change this to the color you want for the unchecked state */
+}
+
+/* Checkbox hover effect */
+.app.dark .dataTable .MuiCheckbox-root:hover svg {
+    color: #fff;
+    /* Optional: Change color on hover */
+}
+
+/* Footer.css */
+  /* Footer text color */
+  .app.dark .dataTable .MuiTablePagination-root {
+    color: #777; /* White text for pagination info */
+  }
+  
+  /* Buttons in the footer (Next, Previous) */
+  .app.dark .dataTable .MuiTablePagination-actions .MuiButtonBase-root {
+    color: #ffffff; /* White text for buttons */
+  }
+  
+  /* Optional: Change the hover color for footer buttons */
+  .app.dark .dataTable .MuiTablePagination-actions .MuiButtonBase-root:hover {
+    background-color: #000; /* Slightly lighter background on hover */
+    color: #ff4081; /* Optional: Different color on hover */
+  }
+  
+  /* Rows per page dropdown */
+  .app.dark .dataTable .MuiTablePagination-select {
+    color: #ffffff; /* White text */
+    background-color: #333333; /* Dark background */
+  }
+  
+  /* Rows per page dropdown arrow */
+  .app.dark .dataTable .MuiSelect-icon {
+    color: #ffffff; /* White arrow */
+  }
+
+  .app.dark .dataTableSection {
+    background-color: #000;
+}
+
+.app.dark .app.dark .dataTable {
+    background-color: #000;
+    color: #777 !important;
+}
+
+.app.dark #addNewBtn {
+    background-color: inherit;
+}
+
+.app.dark .actionBtn {
+    background-color: inherit;
+    border: none;
+    color: #fff;
+}
+
+/* New Page */
+.app.dark .newSection{
+    background-color: #000;
+}
+
+
+/* *** reminder *** */
+.app.dark .formContainerLeft img{
+    filter: invert(100%);
+}
+
+.app.dark .formContainer{
+    color: #fff;
+}
+
+.app.dark .inputField input{
+    background-color: inherit;
+}
+
+.app.dark .fileIcon{
+    color: #fff;
+}
+
+/* Single Page */
+.app.dark .singlePageContainer{
+    background-color: #000;
+}

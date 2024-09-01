@@ -1,0 +1,108 @@
+/* aboutSection */
+#aboutSection{
+    height: 100vh;
+    width: 100%;
+    padding: 0px 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Container */
+.aboutContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+/* mySelfHamza */
+#mySelfHamza{
+    width: 40%;
+    filter: grayscale(100%);
+}
+
+/* About Content */
+.aboutContent{
+    color: #999;
+}
+
+.aboutContent p{
+    font-family: Mondo;
+}
+
+.aboutContent{
+    line-height: 27.2px;
+}
+
+/* aboutSimpleP */
+.aboutSimpleP{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+/* smallPara */
+.smallPara{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #777;
+}
+
+.btnContainer{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+/* btnContainer */
+.btnContainer button{
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #fff;
+}
+
+#hireBtn{
+    background-color:  rgb(186, 201, 100);
+    border: 2px solid rgb(186, 201, 100);
+}
+
+#downloadBtn{
+    border: 2px solid rgb(108, 117, 125);
+    background-color: rgb(108, 117, 125);
+}
+
+/* Responsivennes */
+@media screen and (max-width: 1032px){
+    #aboutSection{
+        height: 100%;
+    }
+
+    .aboutContainer{
+        flex-direction: column;
+    }
+
+    #mySelfHamza{
+        width: 100%;
+    }
+  
+ }
+
+ @media screen and (max-width: 150px){
+    .aboutContainer{
+        align-items: start;
+    }
+
+    #mySelfHamza{
+        height: 400px;
+        object-fit: cover;
+    }
+ }

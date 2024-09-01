@@ -1,0 +1,112 @@
+/* Register Section */
+.registerSection {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.8) ,
+      rgba(0, 0, 0, 0.8)
+    ) , url("https://assets.nflxext.com/ffe/siteui/vlv3/031c42b9-0c81-4db5-b980-0160765188e9/ef21df8b-4d6b-4e06-a696-07890a8431e2/PK-en-20240819-TRIFECTA-perspective_WEB_9a01bcdf-6d68-4ccf-b3d7-216e7bb2b59e_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+
+/* Register Logo */
+#registerLogo{
+    width: 150px;
+}
+
+/* Sign In Button */
+#signInRegister {
+    background-color: #BF0426;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 22px;
+    border-radius: 5px;
+}
+
+/* TopBar */
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5% 4%;
+}
+
+/* Register Content */
+.registerContent{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerContent h1{
+    font-size: 3.5vw;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.registerContent h2{
+    margin-top: 35px;
+    font-size: 1.8vw;
+}
+
+.registerContent h3{
+    margin-top: 20px;
+    font-size: 1.6vw;
+    font-weight: 100;
+}
+
+/* Search box */
+.searchBox{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.searchBox input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+    padding: 0px 12px;
+    background-color: #191a1abc;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.searchBox input::placeholder{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+
+/* Search Box Button */
+#searchBoxBtn{
+    font-size: 18px;
+    padding: 0px 32px;
+    text-wrap: nowrap;
+    height: 100%;
+    background-color: #BF0426;
+    border-radius: 5px;
+    border: 1px solid #BF0426;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

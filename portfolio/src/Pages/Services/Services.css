@@ -1,0 +1,25 @@
+/* servicesSection */
+#serviceSection{
+    height: 100vh;
+    width: 100%;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12%;
+}
+
+/* servicesContainer */
+.servicesContainer{
+    width: 100%;
+    margin-top: 40px;
+}
+
+@media screen and (max-width : 920px){
+    #serviceSection{
+        padding: 80px 12%;
+        height: 100%;
+    }
+}

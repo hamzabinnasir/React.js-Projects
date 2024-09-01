@@ -1,0 +1,18 @@
+/* Fearured List */
+.featuredList {
+    list-style: none;
+    font-size: 16px;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 12px 22px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    font-family: Mondo;
+}
+
+.featuredList:hover{
+    color: #AB952D;
+}
+
+.featureActive {
+    color: #AB952D;
+}

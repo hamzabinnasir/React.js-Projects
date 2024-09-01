@@ -1,0 +1,72 @@
+/* Hero Section */
+.heroSection{
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+    padding: 13% 12%;
+}
+
+.leftContent h1{
+    font-family: fontBold;
+    font-size: 4.4vw;
+}
+
+.mainPara{
+    margin-top: 30px;
+    color: #777;
+}
+
+.leftContent p{
+    font-size: 25px;
+    font-family: fontRegular;
+}
+
+/* Call Us Div */
+.leftContentInner{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+#startBtn{
+    background-color: #030070;
+    color: #fff;
+    padding: 18px 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: fontRegular;
+    font-size: 14px;
+}
+
+.red{
+    color: red;
+}
+
+/* Call Us Dic */
+.callUs span{
+    color: #777;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    font-family: fontRegular;
+}
+
+
+.right{
+    flex: 2;
+}
+
+#rightImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

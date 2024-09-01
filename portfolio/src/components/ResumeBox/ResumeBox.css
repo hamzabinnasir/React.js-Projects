@@ -1,0 +1,45 @@
+/* Resume Box */
+.resumeBox{
+    background-color: #222;
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    font-family: Mondo;
+}
+
+.resumeBox span{
+    font-size: 12px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-family: "Poppins" , sans-serif;
+}
+
+.resumeBox h4{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(186, 201, 100);
+    margin-top: 15px;
+}
+
+.resumeSimpleP {
+    margin-top: 15px;
+    line-height: 27.2px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.uni{
+    margin-top: 25px;
+}
+
+.resumeIcon{
+    font-size: 13px !important;
+}
+
+.resumeCol1 , .resumeCol2{
+    flex: 2;
+}
+

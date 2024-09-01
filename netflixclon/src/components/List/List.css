@@ -1,0 +1,54 @@
+/* List Section */
+.listSection{
+    padding: 12px 0px;
+}
+
+.listSection h3{
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+/* List Parent */
+.listParent{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+/* container */
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+    margin-top: 12px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    /* width: max-content; */
+}
+
+/* Arrow */
+.arrow{
+    height: 100% !important;
+    width: 50px !important;
+    position: absolute;
+    font-size: 40px !important;
+     background-color: rgba(22, 22, 22, 0.5);
+     color: #fff;
+     cursor: pointer;
+     /* ** reminder ** */
+     z-index: 10;
+}
+
+/* Right Arrow */
+.rightArrow{
+    right: 0px;
+}
+
+/* LeftArrow */
+.leftArrow{
+    left: 0px;
+}
+
+.display{
+    display: none !important;
+}

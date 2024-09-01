@@ -1,0 +1,30 @@
+/* ResumeSection */
+#resumeSection{
+    padding: 60px 12%;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ResumeContainer */
+.resumeContainer{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+
+/* Responsivennes */
+@media screen and (max-width: 900px){
+   .resumeContainer{
+    flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 600px){
+   #resumeSection{
+        padding: 80px 32px;
+   }
+}

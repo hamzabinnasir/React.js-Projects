@@ -1,0 +1,46 @@
+/* Home Section */
+.homeSection {
+    width: 100%;
+    display: flex;
+}
+
+/* Home Wrapper */
+.homeWrapper {
+    width: 85%;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Widget Section */
+.widgetSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* cardSection */
+.cardSection{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* chartSection */
+.chartSection{
+    width: 63%;
+    height: 470px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.chartPara{
+    font-size: 17px;
+    color: #666;
+    font-weight: 600;
+}

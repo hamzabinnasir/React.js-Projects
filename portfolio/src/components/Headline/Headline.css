@@ -1,0 +1,13 @@
+.headline{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+
+.headlineLight{
+    font-family: Mondo;
+    font-weight: 100;
+}
+
+.headlineBold{
+    font-family: Humanist;
+}

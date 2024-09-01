@@ -1,0 +1,11 @@
+/* Resume Column */
+.resumeCol{
+    color: #999;
+    width: 100%;
+}
+
+.mainResumeHead{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Mondo;
+}

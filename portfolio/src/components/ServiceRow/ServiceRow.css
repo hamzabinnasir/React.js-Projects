@@ -1,0 +1,22 @@
+/* Row */
+.row{
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+/* Responsiveness */
+@media screen and (max-width : 1120px){
+    .row{
+        gap: 50px;
+    }
+}
+@media screen and (max-width : 860px){
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+}

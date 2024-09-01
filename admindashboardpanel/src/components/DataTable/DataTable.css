@@ -1,0 +1,104 @@
+/* dataTableSection */
+.dataTableSection{
+    width: 100%;
+    padding: 20px;
+}
+
+/* Data Table Header */
+.dataTableHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataTableHeader h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #888;
+}
+
+/* Data Table */
+.dataTable{
+    margin-top: 20px;
+}
+
+/* userDataContainer */
+.userDataContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userDataContainer img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Users Button */
+.usersBtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.active{
+    color: green;
+    background-color: rgba(0, 128, 0, 0.151);
+}
+
+.pending{
+    color: goldenrod;
+    background-color: rgba(189, 189, 3, 0.103);
+}
+
+.passive{
+    color: red;
+    background-color: rgba(255, 120, 120, 0.08);
+}
+
+/* Action Container */
+.actionContainer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 15px;
+}
+
+.actionBtn{
+    padding: 6px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.view{
+    border: 0.5px solid darkblue;
+    color: darkblue;
+}
+
+.decline{
+    border: 0.5px solid red;
+    color: red;
+}
+
+/* Add New Button */
+#addNewBtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 6px 8px;
+    border-radius: 8px;
+    border: 1px solid green;
+    font-size: 18px;
+    color: green;
+}
+
+

@@ -1,0 +1,38 @@
+/* Watch Video */
+.watchSection{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.watchSection li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Watch Video */
+#watchVideo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Back div */
+.backDiv{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    left: 32px;
+    gap: 8px;
+    color: #fff;
+    z-index: 99;
+    mix-blend-mode: difference;
+}
+
+.backIcon{
+    cursor: pointer ;
+    font-size: 32px !important;
+}

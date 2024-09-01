@@ -1,0 +1,112 @@
+/* Hero Section */
+.heroSection{
+    height: calc(100vh - 90px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+    position: relative;
+}
+
+/* Itype Cursor */
+.itypeCursor{
+    animation : cursorAnim 1s infinite linear ;
+}
+
+
+@keyframes cursorAnim {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.heroP{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Poppins" , sans-serif;
+}
+
+.heroSection h1{
+    font-size: 70px;
+}
+
+.light{
+    font-family: Mondo;
+    font-weight: 200;
+}
+
+.bold{
+    font-weight: 800;
+    font-family: Humanist;
+}
+
+
+/* Next Section Container */
+.nextSecContainer{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nextSec{
+    border: 2px solid #fff;
+    height: 44px;
+    width: 22px;
+    border-radius: 20px;
+}
+
+.dot{
+    border-radius: 50%;
+    height: 3px;
+    width: 3px;
+    background-color: #fff;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    animation: scroller 1.5s linear infinite ;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+}
+
+@keyframes scroller{
+    from{
+        top: 20%;
+        opacity: 1;
+    }
+
+    to{
+        top: 70%;
+        opacity: 0;
+    }
+}
+
+.scroll{
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 660px){
+    .heroSection{
+        padding: 0px 80px;
+    }
+    .heroSection h1{
+        text-align: center;
+        font-size: 55px;
+    }
+}

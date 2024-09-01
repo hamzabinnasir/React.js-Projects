@@ -1,0 +1,54 @@
+/* tableSection */
+.tableSection {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 5px;
+    padding: 22px 22px;
+    margin-top: 20px;
+}
+
+.tablePara {
+    font-size: 17px;
+    color: #888;
+    font-weight: 600;
+}
+
+/* Basic Table */
+.basicTable {
+    margin-top: 20px;
+}
+
+/* Product */
+.product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Approved */
+.Approved {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.151);
+}
+
+/* Pending */
+.Pending {
+    color: goldenrod;
+    background-color: rgba(189, 189, 3, 0.103);
+}
+
+/* List Button */
+.listBtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+}

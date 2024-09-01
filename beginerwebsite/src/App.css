@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "fontBold";
+  src: url(assets/fonts/GlacialIndifference-Bold.ttf);
+}
+
+@font-face {
+  font-family: "fontRegular";
+  src: url(assets/fonts/GlacialIndifference-Regular.ttf);
+}
+
+
+/* Polygon */
+.polygon{
+  background-color: crimson;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  clip-path: polygon(63% 0, 45% 100%, 100% 100%, 100% 0);
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+/* Square */
+.square{
+  height: 80px;
+  width: 80px;
+  background-color: #4E6BFF;
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  animation: anim1 25s linear alternate infinite;
+  z-index: -2;
+  opacity: 0.7;
+}
+
+@keyframes anim1{
+  from {
+    transform: translate(0vw , 0vh);
+  }
+  to {
+    transform: translate(100vw , 100vh);
+  }
+}
+
+
+/* Cricle */
+.circle{
+  position: absolute;
+  background-color: red;
+  opacity: 0.7;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  top: 40%;
+  left: -100px;
+  animation: anim2 25s linear alternate infinite;
+  z-index: -2;
+}
+
+@keyframes anim2{
+  from{
+    transform: translate(0vw , 0vh);
+  }
+  to{
+    transform: translate(100vw , -100vh);
+  }
+}
+
+/* Rectangle */
+.rect{
+  position: absolute;
+  background-color: rgb(121, 255, 121);
+  opacity: 0.7;
+  height: 100px;
+  width: 40px;
+  top: 80%;
+  left: -80px;
+  animation: anim3 25s linear alternate infinite;
+  z-index: -2;
+}
+
+
+@keyframes anim3{
+  from{
+    transform: translate(0vw , 0vh);
+  }
+  to{
+    transform: translate(100vw , -50vh);
+  }
+}
+
+/* Home */
+.home{
+  height: 100vh;
+  width: 100%;
+}

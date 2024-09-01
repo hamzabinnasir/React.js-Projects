@@ -1,0 +1,44 @@
+/* Service Card */
+.serviceCard{
+    width: 100%;
+    font-family: Mondo;
+}
+.serviceCard h1{ 
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.serviceCard p{
+    margin-top: 15px;
+    line-height: 27.2px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Circle Icon */
+.circleIcon{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(186, 201, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.serviceIcon{
+    font-size: 40px;
+    color: #000;
+}
+
+@media screen and (max-width : 860px){
+    .serviceCard{
+        width: 38%;
+    }
+}
+@media screen and (max-width : 660px){
+    .serviceCard{
+        width: 100%;
+    }
+}

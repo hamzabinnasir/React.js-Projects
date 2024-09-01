@@ -1,0 +1,93 @@
+/* Navbar */
+#navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+/* SearchBox */
+.searchBox{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid lightgray;
+    padding: 0px 10px;
+    width: 250px;
+    color: #666;
+}
+
+.searchBox input{
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 16px;
+    background-color: inherit;
+}
+
+.searchBox input::placeholder{
+    font-size: 16px;
+}
+
+/* Nav Icons */
+.navIcons{
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    gap: 20px;
+}
+
+/* NavIcon */
+.navIcon{
+    font-size: 24px !important;
+}
+
+/* Widgets */
+.widget{
+    display: flex;
+    align-items: center;
+    color: #666;
+    cursor: pointer;
+}
+
+.widget span , .navFeatured span{
+    font-size: 16px;
+}
+
+/* Featured */
+.navFeatured{
+    color: #666;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Circle */
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    height: 18px;
+    width: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6px;
+    right: -6px;
+    font-size: 12px !important;
+}
+
+/* Nav Profile */
+#navProfile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

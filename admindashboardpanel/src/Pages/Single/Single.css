@@ -1,0 +1,88 @@
+/* singleSection */
+.singleSection {
+    display: flex;
+    width: 100%;
+}
+
+/* SingleWrapper */
+.singleWrapper {
+    width: 85%;
+}
+
+
+/* Single Page Container */
+.singlePageContainer {
+    padding: 20px;
+}
+
+.singleCardWrapper{
+    display: flex;
+    gap: 20px;
+}
+
+/* Single Card */
+.singleCard {
+    padding: 35px 28px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 5px;
+    position: relative;
+    flex: 3.8;
+}
+
+.singleCard h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Single Card */
+.singlePara {
+    font-size: 20px;
+    color: #888;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* imgAndContent */
+.imgAndContent {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.imgAndContent img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imgAndContent p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #777;
+}
+
+/* Edit Button */
+#editBtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: rgb(123, 0, 255);
+    background-color: rgba(214, 175, 255, 0.489);
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* chartCard */
+.chartCard{
+    flex: 7;
+    padding: 40px 28px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 5px;
+}

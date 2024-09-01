@@ -1,0 +1,96 @@
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 70px;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+    padding: 0% 4%;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.scrolled{
+    background-color: #000;
+}
+
+/* Left Nav */
+.leftNav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Right Nav */
+.rightNav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.navbar li{
+    list-style: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Logo */
+#logo{
+    width: 100px;
+}
+
+/* ListContainer */
+.listContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Profile Image */
+#profileImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+/* Icons */
+.icon{
+    cursor: pointer;
+}
+
+/* Upper Case */
+.upperCase{
+    text-transform: uppercase;
+}
+
+/* Drop Down */
+.dropDownContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+/* Drop Down */
+.dropDown{
+    background-color: #000;
+    border-radius: 8px;
+    display: none;
+}
+
+.dropDown li{
+    padding: 12px 15px;
+}
+
+/* Drop Icon */
+.dropDownContainer:hover .dropDown{
+    display: block;
+    position: absolute;
+    top: 60px;
+}
