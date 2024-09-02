@@ -1,0 +1,71 @@
+/* Post Card */
+.postCard{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.28);
+    padding: 8px;
+    margin-top: 30px;
+}
+
+/* Profile Box{ */
+.profileBox{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 6px;
+}
+
+.profileBox img{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Profile Icon */
+.profileIcon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+
+/* First Post Para */
+.firstPostPara{
+    margin-top: 20px;
+}
+
+
+/* Post Image */
+#postImg{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Icons and Comments */
+.iconsAndComments{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Images and Liking */
+.imgsAndLiking{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.imgsAndLiking img{
+    width: 25px;
+    cursor: pointer;
+}
+
+/* Comment para */
+.comments{
+    border-bottom: 1px dashed #111;
+}

@@ -1,0 +1,35 @@
+/* Friend List */
+.friendList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 13px 0px;
+    gap: 12px;
+}
+
+.cirlceAndImg{
+    position: relative;
+}
+
+.circle{
+    height: 12px;
+    width: 12px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid #ffff;
+}
+
+.friendList h4{
+    color: #333;
+    font-weight: 600;
+}
+
+.friendList img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

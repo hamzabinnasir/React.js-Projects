@@ -1,0 +1,88 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    padding: 0px 22px;
+    height: 50px;
+    background-color: blue;
+    color: #ffff;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar h1{
+    flex: 3;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.searchBar{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 12px;
+    background-color: #ffff;
+    color: #000000;
+}
+
+.searchBar .i{
+    font-size: 22px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.searchBar input{
+    padding: 8px 12px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.rightBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 4;
+}
+
+.rightBar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    gap: 12px;
+}
+
+.icons .i{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.icon span{
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 10px;
+    position: relative;
+    top: -17px;
+    right: 8px;
+}

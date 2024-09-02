@@ -1,0 +1,5 @@
+.wrapper{
+    /* height: calc(100vh - 50px); */
+    flex: 5.5;
+    padding: 18px 22px;
+}

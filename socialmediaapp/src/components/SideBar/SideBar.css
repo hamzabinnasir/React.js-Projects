@@ -1,0 +1,36 @@
+.sideBarSection{
+    flex: 3;
+    height: calc(100vh - 50px);
+    padding: 5px 22px;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px; /* to se 50 hi krna hai take navbar ki jaga chor de q k hamari navbar 50px ki hai */
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+.sideBarSection ul li{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 0px;
+    cursor: pointer;
+}
+
+.listIcon{
+    font-size: 25px;
+}
+
+.aboutBoxContainer{
+    border-top: 1px solid #555;
+    margin-top: 18px;
+    padding: 12px 0px;
+}
